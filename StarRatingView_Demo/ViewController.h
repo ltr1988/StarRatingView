@@ -1,6 +1,6 @@
 //
 //  ViewController.h
-//  StarRatingView_Demo
+//  StarRatingViewDemo
 //
 //  Created by fifila on 15/8/17.
 //  Copyright (c) 2015年 fifila. All rights reserved.
