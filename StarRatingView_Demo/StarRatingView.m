@@ -126,6 +126,13 @@
 }
 
 #pragma Touches event
+-(void) touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    UITouch *touch=[touches anyObject];
+    CGFloat offset = [touch locationInView:self].x;
+    [self setScoreByOffset:offset];
+}
+
 -(void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
     UITouch *touch=[touches anyObject];
